@@ -17,17 +17,13 @@
 package com.nebhale.springone2014;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.context.annotation.ComponentScan;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-// TODO 1: Component scan, auto-configuration
-@ComponentScan
-@EnableAutoConfiguration
-public final class Application {
+@SpringBootApplication
+public class Application {
 
-    // TODO 1: main() method
-    public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(Application.class, args);
+	}
 
 }

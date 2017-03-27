@@ -57,14 +57,14 @@ public final class Game {
         }
     }
 
-    @JsonIgnore
+   // @JsonIgnore
     public Long getId() {
         synchronized (this.monitor) {
             return this.id;
         }
     }
 
-    @JsonIgnore
+   // @JsonIgnore
     public Collection<Door> getDoors() {
         return this.doors.values();
     }

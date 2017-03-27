@@ -16,8 +16,6 @@
 
 package com.nebhale.springone2014.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
 public final class Door {
 
     private final DoorContent content;
@@ -33,7 +31,6 @@ public final class Door {
         this.content = content;
     }
 
-    @JsonIgnore
     public Long getId() {
         return this.id;
     }
